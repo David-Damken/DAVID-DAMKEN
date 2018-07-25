@@ -1,12 +1,17 @@
 body{
 	background-color: #702632;
+	box-sizing: border-box;
+	margin: 0;
 }
-* {
-    box-sizing: border-box;
-}
-
-body {
-  margin: 0;
+.head{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	background-color: #ddd;
+	text-align: center;
+	grid-gap: 1em;
+	border: 5px solid black;
+	margin-right: 10%
+	margin-left: 10%
 }
 .topnav a {
     float: left;
@@ -19,28 +24,21 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
+	border: 5px solid black;
 }
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-	text-shadow: 2px 2px 5px #702632; 
-}
-.container{
-	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
-	grid-gap: 1em;
-	padding-top: 10px;
-	padding-bottom: auto;
-	background: #DDD;
+.content{
+	background-color: #eee;
+	border: 5px solid black;
+	margin: 0;
 	margin-left: 10%;
 	margin-right: 10%;
-	box-shadow: 10px 10px 10px 10px black;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
 }
 .offer{
 	padding: 20px;
@@ -64,4 +62,25 @@ body {
 }
 .gallery{
 	background-color: #DDD;
+}
+.doors{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #eee;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 5px solid black;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+.doors h1{
+	text-align: center;
+}
+.pic{
+	width: 250px;
+	height: 200px;
+}
+.pics img{
+	float: left;
 }
