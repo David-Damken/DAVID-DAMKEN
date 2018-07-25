@@ -10,8 +10,8 @@ body{
 	text-align: center;
 	grid-gap: 1em;
 	border: 5px solid black;
-	margin-right: 10%
-	margin-left: 10%
+	margin-right: 10%;
+	margin-left: 10%;
 }
 .topnav a {
     float: left;
