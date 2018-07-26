@@ -3,11 +3,18 @@ body{
 	box-sizing: border-box;
 	margin: 0;
 }
-.head{
+.header{
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	background-color: #ddd;
 	text-align: center;
+	grid-gap: 1em;
+	border: 5px solid black;
+}
+.head{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	background-color: #ddd;
 	grid-gap: 1em;
 	border: 5px solid black;
 }
