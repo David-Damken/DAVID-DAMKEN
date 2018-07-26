@@ -53,6 +53,9 @@ body{
 .mySlides{
 	width: 100%;
 	height: 400px;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 .w3{
 	text-align: center;
