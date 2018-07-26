@@ -17,6 +17,8 @@ body{
 	background-color: #ddd;
 	grid-gap: 1em;
 	border: 5px solid black;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .topnav a {
     float: left;
