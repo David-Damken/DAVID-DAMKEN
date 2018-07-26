@@ -53,8 +53,8 @@ body{
 	background-color: #eee;
 }
 .mySlides{
-	width: 600px;
-	height: 400px;
+	width: 100%;
+	height: 60%;
 }
 .w3{
 	text-align: center;
