@@ -3,6 +3,12 @@ body{
 	box-sizing: border-box;
 	margin: 0;
 }
+.top{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
 .headd{
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -39,6 +45,7 @@ body{
     color: black;
 }
 .content{
+	padding-top: 200px;
 	background-color: #eee;
 	border: 5px solid black;
 	margin: 0;
