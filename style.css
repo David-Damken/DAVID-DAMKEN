@@ -101,3 +101,8 @@ body{
 .pics img{
 	float: left;
 }
+.footer{
+	background-color: #ddd;
+	text-align: center;
+	border: 5px solid black;
+}
