@@ -116,6 +116,7 @@ body{
 	padding-right: 20px;
 	padding-bottom: 20px;
 	border: 5px solid black;
+	text-align: center;
 }
 .test{
 	display: grid;
