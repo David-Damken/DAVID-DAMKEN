@@ -48,8 +48,6 @@ body{
 	background-color: #eee;
 	border: 5px solid black;
 	margin: 0;
-	margin-left: 10%;
-	margin-right: 10%;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
 }
@@ -80,8 +78,6 @@ body{
     	margin-right: auto;
 }
 .doors{
-	margin-left: 20%;
-	margin-right: 20%;
 	background-color: #eee;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -109,8 +105,6 @@ body{
 	padding-top: 200px;
 }
 .cont{
-	margin-left: 20%;
-	margin-right: 20%;
 	background-color: #eee;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -124,16 +118,12 @@ body{
 	background-color: #ddd;
 	grid-gap: 1em;
 	border: 5px solid black;
-	margin-left: 10%;
-	margin-right: 10%;
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
 .main{
-	margin-left: 20%;
-	margin-right: 20%;
 	background-color: #eee;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -143,8 +133,6 @@ body{
 .rep{
 	background-color: #ddd;
 	border: 5px solid black;
-	margin-left: 10%;
-	margin-right: 10%;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
