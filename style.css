@@ -150,7 +150,3 @@ body{
 	grid-template-columns: 1fr 2fr;
 	grid-gap: 1em;
 }
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
