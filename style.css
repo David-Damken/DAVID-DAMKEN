@@ -50,6 +50,8 @@ body{
 	margin: 0;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 .offer{
 	padding: 20px;
@@ -85,6 +87,8 @@ body{
 	border: 5px solid black;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 .doors h1{
 	text-align: center;
@@ -122,6 +126,8 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 .main{
 	background-color: #eee;
@@ -129,6 +135,8 @@ body{
 	padding-right: 20px;
 	padding-bottom: 20px;
 	border: 5px solid black;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 .rep{
 	background-color: #ddd;
@@ -136,6 +144,8 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 .rep h1{
 	text-align: center;
